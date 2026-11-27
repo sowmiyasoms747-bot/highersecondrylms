@@ -53,4 +53,5 @@ To start again, clear the site data in the browser.
 - **Video lectures** are slide lessons with an optional voice. Use your recordings in `Lecture` in `Materials.tsx`.
 - **Previous year papers** link to the official exam sites.
 - **AI Study Buddy** answers from the notes and solves quadratics and arithmetic. Replace `askBuddy` with your AI service.
+- **Live Classes** shows a sample timetable built in `Live.tsx`; there is no video link yet. Load your real schedule and join links there.
 - **Ask a Mentor** saves questions on the device only; no mentor receives them yet.

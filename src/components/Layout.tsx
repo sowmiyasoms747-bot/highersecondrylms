@@ -10,7 +10,7 @@ import { Avatar } from './ui';
 
 /** Address, label and icon name in assets/icons/menu. */
 const NAV: [string, string, string][] = [
-  ['/', 'Dashboard', 'dashboard'], ['/learning', 'My Learning', 'learning'], ['/subjects', 'Subjects', 'subjects'], ['/materials', 'Study Materials', 'materials'],
+  ['/', 'Dashboard', 'dashboard'], ['/learning', 'My Learning', 'learning'], ['/live', 'Live Classes', 'live'], ['/subjects', 'Subjects', 'subjects'], ['/materials', 'Study Materials', 'materials'],
   ['/practice', 'Practice & Tests', 'practice'], ['/exam', 'Exam Prep', 'exam'], ['/buddy', 'AI Study Buddy', 'buddy'], ['/analytics', 'Progress & Analytics', 'analytics'],
   ['/planner', 'Study Planner', 'planner'], ['/motivation', 'Motivation Hub', 'motivation'], ['/career', 'Career & Colleges', 'career'], ['/mentor', 'Ask a Mentor', 'mentor'],
   ['/account', 'Settings', 'settings'], ['/help', 'Help & Support', 'help'],

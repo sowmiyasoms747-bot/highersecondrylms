@@ -7,6 +7,7 @@ import { CareerDetailPage, CareerPage } from './pages/Career';
 import { DashboardPage } from './pages/Dashboard';
 import { ExamDetailPage, ExamPage, SprintPage } from './pages/Exam';
 import { ChapterPage, LearningPage, SubjectPage, SubjectsPage } from './pages/Learning';
+import { LivePage } from './pages/Live';
 import { MaterialListPage, MaterialPage, MaterialsPage, PackPage } from './pages/Materials';
 import { MentorPage } from './pages/Mentor';
 import { MotivationPage } from './pages/Motivation';
@@ -19,6 +20,7 @@ export default function App() {
       <Route element={<Layout />}>
         <Route index element={<DashboardPage />} />
         <Route path="learning" element={<LearningPage />} />
+        <Route path="live" element={<LivePage />} />
         <Route path="subjects" element={<SubjectsPage />} />
         <Route path="subjects/:sid" element={<SubjectPage />} />
         <Route path="subjects/:sid/:n" element={<ChapterPage />} />
