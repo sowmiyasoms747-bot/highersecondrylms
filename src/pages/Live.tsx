@@ -51,7 +51,7 @@ export function LivePage() {
                     ? <span className="pill red">Live now</span>
                     : added(c)
                       ? <span className="pill green"><Check size={15} /> In planner</span>
-                      : <button className="chip" onClick={() => remind(c)}><CalendarPlus size={17} /> Add to planner</button>}
+                      : <button className="chip" onClick={() => remind(c)} aria-label="Add to planner"><CalendarPlus size={17} /><span>Add to planner</span></button>}
                 </div>
               );
             })}

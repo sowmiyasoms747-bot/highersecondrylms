@@ -392,6 +392,8 @@ input[type=checkbox] { width: 20px; height: 20px; accent-color: var(--violet); f
 .add-task .btn { padding-inline: 16px; flex: none; }
 .edit-task { display: grid; grid-template-columns: 1fr 84px 44px; gap: 10px; align-items: center; }
 .edit-task button, .task button:not(.box), .row-card > button { width: 44px; height: 44px; display: grid; place-items: center; color: #8a2146; flex: none; }
+.row-card > button.chip { width: auto; height: auto; display: inline-flex; color: #3d1399; }
+.row-card .pill svg { vertical-align: -2px; }
 .week { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 18px; }
 .week h2, .month header { display: flex; justify-content: space-between; align-items: baseline; }
 .week .task { font-size: 17px; gap: 14px; }
@@ -559,6 +561,8 @@ details p { padding: 0 4px 16px 24px; }
   .month .pad { padding: 14px 10px; }
   .month { grid-template-columns: minmax(0, 1fr); }
   .row-card { gap: 11px; padding: 10px 12px 10px 14px; font-size: 17px; }
+  .row-card > button.chip { padding: 0 11px; }
+  .row-card > button.chip span { display: none; }
   .chip { padding: 0 12px; }
   .pill { padding-inline: 10px; font-size: 15px; }
   .pad { padding: 18px; }
